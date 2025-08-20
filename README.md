@@ -1,5 +1,4 @@
 # ConvoFlow-Real-time-chat-application
-This is our first MERN STACK Project.
 
 - User Registration and Authentication
 POST /api/register
