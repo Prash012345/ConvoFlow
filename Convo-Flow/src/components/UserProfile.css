@@ -1,0 +1,100 @@
+.profile-container {
+  width: 350px;
+  margin: 50px auto; /* Center with some margin from the top */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden; /* Prevents overflow of contents */
+}
+
+.profile-header {
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  padding: 30px 20px;
+  color: white;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  right: 150px;
+  top: 5px;
+  background: none;
+  /* border: none; */
+  color: white;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.profile-picture {
+  margin-top: -50px;
+}
+
+.profile-image {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-top: 60px;
+}
+
+.profile-details {
+  text-align: left;
+  padding: 20px;
+}
+
+.profile-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.profile-item i {
+  margin-right: 10px;
+  color: #555;
+  font-size: 18px;
+}
+
+.profile-item input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  
+}
+
+.edit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background: linear-gradient(to right, #cf8bf3, #a770ef);
+}
+.profile-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.profile-item .fa-icon {
+  margin-right: 10px;
+  color: #555;
+  font-size: 18px;
+  
+}
